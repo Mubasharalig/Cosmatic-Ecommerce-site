@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <script src="assets/js/javascript.js"></script>
+    <script src="https://kit.fontawesome.com/c1e9c3c87f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/cart.css">
+</head>
+
+<body>
+    <div id="main">
+        <div class="container">
+            <!-- Header-start-->
+            <div class="header">
+                <div class="logo">
+                    <a href="index.html"><img src="./assets/images/logo.png" alt="">
+                    </a>
+                </div>
+                <div class="navbar" id="navigation">
+                    <ul>
+                        <li><a href="#">shop all</a></li>
+                        <li><a href="#">make up </a></li>
+                        <li><a href="#">skin care </a></li>
+                        <li><a href="#">hair care </a></li>
+                        <li><a href="#">about </a></li>
+                        <li><a href="#">contact </a></li>
+                    </ul>
+                </div>
+                <div class="header-icon">
+                    <span class="fa fa-user" style="font-size:22px;padding-right: 20px;"></span>
+                    <span>$0.00</span>
+                    <i class='fa fa-shopping-basket' style='font-size:18px;padding-left: 10px;'></i>
+                </div>
+                <div class="mobile-icon">
+                    <i class="fa fa-bars mobile-navbar" id="menu"></i>
+                </div>
+
+            </div>
+            <!-- Header-End-->
+        </div>
+        <!--Cart total-start-->
+        <div class="container">
+            <div class="total">
+                <table class="table">
+                    <caption>
+                        <h2>Cart</h2>
+                    </caption>
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th colspan="2">Product</th>
+                            <th>Price</th>
+                            <th>Quentity</th>
+                            <th class="subtotal">Subtotal</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="left">
+                                <div><i class="fas fa-circle-xmark icon"></i>
+                                    <img src="./assets/images/product3.jpg" alt="" class="product-pic">
+                                </div>
+                            </td>
+                            <td colspan="2" class="left">Product Name 10</td>
+                            <td class="left">$59.00</td>
+                            <td class="quentity left">
+                                <p>-</p>
+                                <p>1</p>
+                                <p>+</p>
+                            </td>
+                            <td class="subtotal left" colspan="2">$100.00</td>
+                        </tr>
+                        <tr>
+                            <td><input type="number" name="" id="" placeholder="Coupon code"></td>
+                            <td colspan="4"><button class="add">Apply Coupon</button>
+                            </td>
+                            <td><button class="update">Update Cart</button>
+                            </td>
+
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <!--Cart total-end-->
+        <div class="container">
+            <!--cart total start-->
+            <div class="carttotal">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Cart totals</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Subtotal</td>
+                            <td colspan="2">$118.00</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Total</td>
+                            <td colspan="2">$118.00</td>
+                        </tr>
+                        <tr>
+                            <td colspan="5"><a href="payment.html"><button>Proceed to Suceed</button></a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <!--cart total start end-->
+
+        </div>
+        <!--Footer Start-->
+        <div class="container">
+            <div id="footer">
+                <div class="subscribe">
+                    <div class="left">
+                        <h2>Subscribe to our newsletter</h2>
+                    </div>
+                    <div class="right">
+                        <input type="text" placeholder="Your email address">
+                        <button>SUBSCRIBE</button>
+                    </div>
+                </div>
+                <div class="icon">
+                    <div class="logo">
+                        <a href="detail.html"><img src="./assets/images/logo.png" alt="">
+   </a>                 </div>
+                    <div class="right">
+                        <div class="catagory">
+                            <ul>
+                                <li><a href="#">shop all</a></li>
+                                <li><a href="#">makeup</a></li>
+                                <li><a href="#">skin care</a></li>
+                                <li><a href="#">hair care</a></li>
+                                <li><a href="#">about</a></li>
+                                <li><a href="#">contact</a></li>
+
+                            </ul>
+                        </div>
+                        <div class="policy">
+                            <ul>
+                                <li><a href="#">refund</a></li>
+                                <li><a href="#">terms & condition</a></li>
+                                <li><a href="#">FAQ</a></li>
+                                <li><a href="#">privacy policy</a></li>
+                            </ul>
+                        </div>
+                        <div class="socialicon">
+                            <a href="#" class="fa fa-facebook"></a>
+                            <a href="#" class="fa fa-instagram"></a>
+                            <a href="#" class="fa fa-twitter"></a>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="copyright">Copyright © 2023 Be Bold | Powered by Be Bold</div>
+            </div>
+        </div>
+        <!--Footer End-->
+    </div>
+
+    </div>
+</body>
+
+</html>
