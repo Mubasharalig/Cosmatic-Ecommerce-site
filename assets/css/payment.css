@@ -1,0 +1,236 @@
+
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    margin:0;
+    border:0;
+    background-color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.center-text
+{
+    text-align: center;
+}
+ .card
+{
+    width: 97%;
+    background-color: white;
+    margin:0 auto;
+    margin-top:50px;
+    border-radius: 10px;
+    padding:30px;
+}
+.cart
+{
+    display: flex;
+    gap:5px;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.cart div
+{
+    margin-left:5px;
+}
+.cart hr
+{
+    margin: 0;
+    width: 84px;
+    height: 0px;
+    margin-top: 11px;
+}
+.cart .text-color
+{
+    color:gray;
+}
+
+/*========================================
+            INFO STYLING START
+==========================================*/
+
+.info
+{
+    display: flex;
+    gap:20px;
+    justify-content: center;
+}
+.custom-info
+{
+   
+}
+.custom-info input[type=text],input[type=number],select,textarea
+{
+    padding:12px;
+    width: 100%;
+}
+
+.flex
+{
+    display: flex;
+    gap:10px;
+    margin-top: 15px;
+}
+.payment-method
+{
+    border:1px solid #757575;
+    margin-top:15px;
+}
+.payment-method span
+{
+    background-color: #F8F6F8;
+    width: 100%;
+    padding:20px;
+    display: block;
+    font-weight: 500;
+}
+.payment-method p
+{
+    padding-left:10px;
+    font-size: 12px;
+    font-weight: initial;
+    padding:10px;
+}
+.payment-method button
+{
+    width: 100%;
+    background-color:#994bfb;
+    color:white;
+    text-align: center;
+    padding:15px;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+table
+{
+   
+    width: 470px;
+    font-weight: initial;
+    padding: 100px;
+    height: 305px;
+    border-collapse: collapse;
+}
+table td,th
+{
+    padding:30px 15px 15px 15px
+}
+table,tr
+{
+    padding-top:10px;
+    border:1px solid #757575;
+
+}
+table img
+{
+    width: 50px;
+}
+
+.left{
+    text-align: left;
+}
+.info input[type=number]
+{
+    width: 100%;
+    padding:10px;
+}
+.coupon
+{
+    margin-top:20px;
+}
+.coupon button
+{
+    color:white;
+    padding:12px;
+    border: none;
+    background-color: #994bfb;
+    width: 31%;
+    font-weight: bold;
+}
+.coupon input[type=number]
+{
+    width: 65%;
+    margin-right:10px;
+}
+.product
+{
+    padding-top:40px;
+}
+.total
+{
+    padding-bottom:30px;
+}
+
+
+/*========================================
+            INFO STYLING End
+==========================================*/
+
+
+/*-----------------------------------------*/
+
+/*========================================
+            ORDER STYLING START
+==========================================*/
+
+.order-info
+{
+    width: 100%;
+    position: sticky;
+}
+
+/*========================================
+            ORDER STYLING End
+==========================================*/
+
+.faq
+{
+    width: 80%;
+    margin:0 auto;
+    margin-top:60px;
+}
+.faq p
+{
+    font-weight: initial;
+}
+footer ul
+{
+    list-style: none;
+    font-weight: initial;
+}
+footer p
+{
+    font-weight: initial;
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+table
+{
+    width:100%;
+}
+
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+  
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+    .info
+    {
+     flex-wrap: wrap;
+    }
+   
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}

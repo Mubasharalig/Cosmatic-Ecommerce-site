@@ -1,0 +1,397 @@
+
+/*==============================================
+            PRODUCT STYLING START             
+==============================================*/
+button:hover
+{
+    background-color: green !important;
+    cursor: pointer;
+}
+.productsection
+{
+    width: 87%;
+    margin:0 auto;
+}
+.productdetail
+{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.product
+{
+    width: 50%;
+    position: relative;
+}
+.product > img
+{
+    width: 94%;
+}
+.minigal
+{
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+}
+.minigal img
+{
+    width: 20.5%;
+    opacity: 0.7;
+    cursor: pointer;
+}
+.product button
+{
+    border-radius: 15px;
+    border: none;
+    background-color: white;
+    position: absolute;
+    top: 20px;
+    padding: 6px;
+    width: 48px;
+    box-shadow: 1px 1px 3px gray;
+    left: 17px
+}
+.fa-search
+    {
+   
+        border-radius: 20px;
+        border: none;
+        background-color: white;
+        position: absolute;
+        top: 20px;
+        padding: 8px;
+        right: 47px;
+    }
+.detail
+{
+    width: 50%;
+}
+.paragraph
+{
+    line-height: 30px;
+    font-size: 17px;
+    font-weight: 300;
+}
+.detail ul
+{
+    list-style: none;
+    display: flex;
+    margin-left: -36px;
+}
+.detail ul li
+{
+    display: inline-block;
+}
+.detail nav ul li a
+{
+    color:grey;
+    text-decoration: none;
+}
+.product-catagory ul li a
+{
+    text-decoration: none;
+    color:black;
+
+}
+.detail .number
+{
+    display: flex;
+}
+.quentity
+{
+    display: flex;
+    align-items: center;
+
+}
+.quentity .number p
+{
+    border:1px solid wheat;
+    padding:10px;
+}
+.quentity button
+{
+    color:white;
+    background-color: black;
+    text-transform: uppercase;
+    font-weight: 600;
+    width: 140px;
+    height: 40px;
+    text-align: center;
+    margin-left: 20px;
+}
+
+
+
+/*==============================================
+            PRODUCT STYLING END             
+==============================================*/
+
+
+
+
+/*==============================================
+            MORE STYLING START             
+==============================================*/
+
+.more .content
+{
+    background-image: url(./images/productbg.jpg);
+    height: 100vh;
+    background-size: 100%;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.more .content span
+{
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.more .content .text
+{
+    text-align: center;
+    width: 90%;
+    padding:25px;
+}
+.more .content .text p
+{
+    font-size: 22px;
+    margin-top:10px;
+    position: relative;
+}
+.more .content .text p::after
+{
+    content: "";
+    width: 45px;
+    height: 0.7px;
+    background-color: white;
+    position: absolute;
+    bottom:-20px;
+    text-align: center;
+    right: 50%;
+}
+.feature
+{
+    display: flex;
+    margin-top:40px;
+}
+.feature .right
+{
+    width: 50%;
+}
+.feature .left
+{
+    width: 50%;
+}
+.feature .right ul
+{
+    list-style:circle;
+    
+}
+.feature .right ul li
+{
+    line-height:40px;
+}
+.connection
+{
+    background-image: url(./images/connection.jpg);
+    height: 100vh;
+    background-position: center;
+    color:white;
+    display: flex;
+    align-items: center;
+    font-weight: 100;
+}
+.connection .text
+{
+    width: 60%;
+    padding-left:90px;
+}
+/*==============================================
+            MORE STYLING START             
+==============================================*/
+
+
+
+/*==============================================*/
+/*        HERO-STYLING-END                        */
+/*==============================================*/
+
+
+/*==============================================*/
+/*        Relative Product-STYLING-START                        */
+/*==============================================*/
+
+.relativeproduct
+{
+    margin-top:100px;
+    
+}
+.relativeproduct .galary
+{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+.relativeproduct p:nth-child(1)
+{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 400;
+    color:gray;
+}
+.relativeproduct h2
+{
+    text-transform: capitalize;
+    font-weight: 500;
+    margin-bottom: -5px;
+}
+.relativeproduct p
+{
+    color:#5D5B80;
+}
+.relativeproduct s
+{
+    color:#AEADAD;
+}
+.relativeproduct .product
+{
+    padding-top:30px;
+    position: relative;
+}
+.relativeproduct img
+{
+    width: 250px;
+}
+.relativeproduct span
+{
+    display: block;
+}
+.relativeproduct button
+{
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+    position: absolute;
+    top: 56px;
+    padding: 8px;
+    width: 54px;
+    box-shadow: 1px 1px 3px gray;
+    left: 17px
+}
+#btnview
+{
+    color: white;
+    background-color: black;
+    text-transform: uppercase;
+    font-weight: 600;
+    width: 140px;
+    height: 40px;
+    text-align: center;
+    margin-left: 20px;
+    display: none;
+}
+
+
+/*==============================================*/
+/*        Relative product-STYLING-END            
+/*==============================================*/
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .productdetail
+    {
+     align-items: center;
+    }
+    .product
+    {
+     width: 100%;
+    }
+    .product img
+    {
+     width: 100%;
+    }
+    .minigal img
+    {
+     width: 23.2%;
+    }
+    .detail
+    {
+     width: 100%;
+    }
+    
+    
+    }
+    /* Small devices (portrait tablets and large phones, 600px and up) */
+    @media only screen and (min-width: 600px) {
+       
+        
+    }
+    /* Medium devices (landscape tablets, 768px and up) */
+    @media only screen and (max-width: 768px) {
+      
+       
+        
+
+        .productdetail
+        {
+         align-items: center;
+        }
+        .product
+        {
+         width: 100%;
+        }
+        .product img
+        {
+         width: 100%;
+        }
+        .minigal img
+        {
+         width: 23.2%;
+        }
+        .detail
+        {
+         width: 100%;
+        }
+    }
+    /* Large devices (laptops/desktops, 992px and up) */
+    @media only screen and (max-width: 992px) {
+       
+        
+       .productdetail
+       {
+        align-items: center;
+       }
+       .product
+       {
+        width: 100%;
+       }
+       .product img
+       {
+        width: 100%;
+       }
+       .minigal img
+       {
+        width: 23.2%;
+       }
+       .detail
+       {
+        width: 100%;
+       }
+       .galary
+       {
+        flex-wrap: wrap;
+        
+       }
+      
+
+    }
+    /* Extra large devices (large laptops and desktops, 1200px and up) */
+    @media only screen and (min-width: 1200px) {
+    
+    }
